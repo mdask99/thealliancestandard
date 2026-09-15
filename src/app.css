@@ -5,17 +5,15 @@
 	--font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
 	--font-mono: ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Liberation Mono', monospace;
 
-	--color-paper: #f4f0e8;
-	--color-ink: #161513;
-	--color-ink-muted: #5c574e;
-	--color-rule: #d8d0c4;
-	--color-mark: #1f3d32;
-
-	--color-terminal: #050505;
-	--color-phosphor: #7cff6b;
-	--color-phosphor-dim: #3d8a34;
-	--color-scan: #111111;
-	--color-gridline: #1c1c1c;
+	--color-paper: #eef3f8;
+	--color-ink: #0a1628;
+	--color-ink-muted: #5b6b7c;
+	--color-rule: #c9d4e0;
+	--color-navy: #0a1628;
+	--color-signal: #8eb8e4;
+	--color-signal-dim: #4d7399;
+	--color-scan: #0f1f35;
+	--color-gridline: #1a2e48;
 }
 
 html,
@@ -24,11 +22,11 @@ body {
 }
 
 html[data-perspective='human'] body {
-	background: var(--color-paper);
-	color: var(--color-ink);
+	background: var(--color-navy);
+	color: #e8eef5;
 }
 
 html[data-perspective='agent'] body {
-	background: var(--color-terminal);
-	color: #e8e8e8;
+	background: var(--color-paper);
+	color: var(--color-ink);
 }

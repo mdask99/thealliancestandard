@@ -72,9 +72,10 @@ export const contrast = {
 		]
 	},
 	loop: {
-		title: 'The Alliance loop',
-		metrics: '4 articles · continuous · async by default',
+		title: 'The Alliance Loop',
+		subtitle: 'Development Lifecycle',
 		agentHeader: 'ALLIANCE_LOOP',
+		agentSubtitle: 'lifecycle=dev',
 		steps: [
 			{ id: 'intent', label: 'Intent', article: 'Sovereignty of Intent' },
 			{ id: 'generate', label: 'Generate', article: 'Continuous Synthesis' },
